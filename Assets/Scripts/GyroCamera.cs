@@ -56,7 +56,7 @@ public class GyroCamera : MonoBehaviour
                     {
                         GameObject obj = hit.collider.gameObject;
                         Material material = hit.collider.gameObject.GetComponent<Renderer>().sharedMaterial;
-                        Debug.Log(material);
+                        
                         material.SetVector("Polygon_Tiling", Vector4.zero);
 
                     }
